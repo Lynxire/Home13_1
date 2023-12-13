@@ -24,7 +24,7 @@ public class User {
         }catch (WrongLoginException | WrongPasswordException e){
             return false;
         }
-        //3 задание, так как программа будет завершена, блок finally не будет реализован
+        //2 задание, так как программа будет завершена, блок finally не будет реализован
         finally {
             //throw new RuntimeException();
         }
